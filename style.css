@@ -17,6 +17,10 @@ input {
     border: none;
 }
 
+ul {
+    list-style-type: none;
+}
+
 /**** Style général de la page ****/
 
 body {
@@ -74,6 +78,10 @@ h1 span {
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
 
+.container__section input:focus {
+    outline: 2px solid #0c8835;
+}
+
 .buttons__container {
     display: flex;
     justify-content: center;
@@ -90,6 +98,11 @@ form button {
     color: #f1f1f1;
     background-color: #0c8835;
     font-family: "Roboto", sans-serif;
+    transition: opacity 0.3s ease-out;
+}
+
+form button:hover {
+    opacity: 0.8;
 }
 
 .info__txt {
@@ -100,7 +113,6 @@ form button {
 
 .cookies__list {
     font-size: 40px;
-    list-style-type: none;
     margin: 10px auto;
     padding: 5px 0;
     display: grid;
@@ -137,6 +149,7 @@ form button {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
     background-color: #ff0000;
     color: #f1f1f1;
+    text-align: center;
 }
 
 .toasts__container {
