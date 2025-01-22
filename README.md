@@ -11,7 +11,7 @@ Création d'un générateur de cookies en HTML5, CSS3 et JavaScript. Pour se fai
 
 ## Démonstration
 
-Lien vers le projet :
+Lien vers le projet : https://aperbet56.github.io/createur_de_cookie/
 
 ## Projet développé avec
 
