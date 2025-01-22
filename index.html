@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Créateur de cookies</title>
+    <!-- Importattion des styles -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Début du header -->
+    <header>
+      <h1>Créateur de <span>cookies</span> 🍪</h1>
+    </header>
+    <!-- Fin du header -->
+
+    <!-- Début du main -->
+    <main class="main__content">
+      <!-- Début de la section -->
+      <section class="container__section">
+        <form action="#">
+          <div class="input__group">
+            <label for="name">Son nom :</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              autocomplete="off"
+              required
+            />
+          </div>
+          <div class="input__group">
+            <label for="value">Sa valeur :</label>
+            <input
+              type="text"
+              id="value"
+              name="value"
+              autocomplete="off"
+              required
+            />
+          </div>
+          <div class="buttons__container">
+            <button type="submit" class="create__cookie__btn">Créer</button>
+            <button type="button" class="display__cookie__btn">Afficher</button>
+          </div>
+        </form>
+        <p class="info__txt"></p>
+        <ul class="cookies__list"></ul>
+        <!-- Fin de la section -->
+      </section>
+      <div class="toasts__container"></div>
+      <!-- Fin du main -->
+    </main>
+    <!-- Début du footer -->
+    <footer>
+      <p>Site créé par aperbet56</p>
+    </footer>
+    <!-- Fin du footer -->
+
+    <!-- Importation du fichier JavaScript script.js -->
+    <script src="script.js"></script>
+  </body>
+</html>
